@@ -8,9 +8,11 @@ def checkio(n: float) -> str:
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     print("Example:")
-    print(checkio(4, 4, 4))
+    print(checkio(5.85987448205))
 
-    assert checkio(4, 4, 4) == [60, 60, 60], "All sides are equal"
-    assert checkio(3, 4, 5) == [37, 53, 90], "Egyptian triangle"
-    assert checkio(2, 2, 5) == [0, 0, 0], "It's can not be a triangle"
+    assert checkio(5.85987448205) == 'pi+e', "or e+pi"
+    assert checkio(18.2958548951) == 'pi + e**e', "or e**e + pi"
+    assert checkio(47.6085189284) == 'pi*e**e', 
     print("Coding complete? Click 'Check' to earn cool rewards!")
+    
+    
