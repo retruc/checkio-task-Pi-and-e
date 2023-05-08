@@ -6,29 +6,23 @@ Each test is dict with
     "answer" -- your right answer
     "explanation" -- not necessary key, it's using for additional info in animation.
 """
-
+checkio(5.85987448205) == 'e+pi'
+checkio(18.2958548951) == 'e**e+pi'
+checkio(47.6085189284) == 'e**e*pi'
 TESTS = {
     "Basics": [
-        {"input": [4, 4, 4], "answer": [60, 60, 60], "explanation": ""},
-        {"input": [3, 4, 5], "answer": [37, 53, 90], "explanation": ""},
-        {"input": [2, 2, 5], "answer": [0, 0, 0], "explanation": ""},
-        {"input": [2, 5, 2], "answer": [0, 0, 0], "explanation": ""},
-        {"input": [5, 2, 2], "answer": [0, 0, 0], "explanation": ""},
-        {"input": [5, 4, 3], "answer": [37, 53, 90], "explanation": ""},
-        {"input": [10, 20, 30], "answer": [0, 0, 0], "explanation": ""},
-        {"input": [11, 20, 30], "answer": [11, 20, 149], "explanation": ""},
-        {"input": [100, 100, 100], "answer": [60, 60, 60], "explanation": ""},
-        {"input": [15, 14, 19], "answer": [47, 51, 82], "explanation": ""},
-        {"input": [7, 4, 8], "answer": [30, 61, 89], "explanation": ""}
+        {"input": 5.85987448205, "answer": 'e+pi', "explanation": ""},
+        {"input": 18.2958548951, "answer": 'e**e+pi', "explanation": ""},
+        {"input": 47.6085189284, "answer": 'e**e*pi', "explanation": ""},
+        {"input": -0.42331082513, "answer": 'e-pi', "explanation": ""},
+        {"input": 7.38905609893, "answer": 'e*e', "explanation": ""},
+
     ],
     "Extra": [
-        {"input": [1000, 1000, 1000], "answer": [60, 60, 60], "explanation": ""},
-        {"input": [50, 40, 30], "answer": [37, 53, 90], "explanation": ""},
-        {"input": [100, 100, 1000], "answer": [0, 0, 0], "explanation": ""},
-        {"input": [2, 3, 4], "answer": [29, 47, 104], "explanation": ""},
-        {"input": [80, 80, 60], "answer": [44, 68, 68], "explanation": ""},
-        {"input": [4, 6, 10], "answer": [0, 0, 0], "explanation": ""},
-        {"input": [8, 6, 10], "answer": [37, 53, 90], "explanation": ""},
-        {"input": [395, 295, 295], "answer": [48, 48, 84], "explanation": ""},
+        {"input": -2.48054830216, "answer": 'e*e-pi*pi', "explanation": ""},
+        {"input": 57.9087276547, "answer": 'e*pi**e-pi', "explanation": ""},
+        {"input": 0.07455076325, "answer": 'e/pi**pi', "explanation": ""},
+        {"input": 0.10132118364, "answer": 'e/e/pi/pi', "explanation": ""},
+
     ]
 }
