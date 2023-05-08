@@ -1,10 +1,7 @@
 <p>
-    You are given the lengths for each side on a triangle.
-    You need to find all three angles for this triangle.
-    If the given side lengths cannot form a triangle (or form a degenerated triangle),
-    then you must return all angles as 0 (zero).
-    The angles should be represented as a list of integers in <strong>ascending order</strong>.
-    Each angle is measured in degrees and rounded to the nearest integer number (Standard mathematical rounding).
+In this challenge, you will be given a result, and your task is to find the arithmetic expression using only
+ the numbers pi and e that yields that result. You can use addition, subtraction, multiplication, division, and exponentiation,
+ and each number (pi and e) can appear at most two times (parenthesis are excluded).
 </p>
 
 <p style="text-align: center;">
@@ -26,21 +23,23 @@
         <strong>Example:</strong>
     </p>
 {% if interpreter.slug == "js-node" %}
-    <pre class="brush: python">triangleAngles(4, 4, 4) == [60, 60, 60]
-triangleAngles(3, 4, 5) == [37, 53, 90]
-triangleAngles(2, 2, 5) == [0, 0, 0]</pre>
+    <pre class="brush: python">pi_e_expression(5.85987448205) == 'pi+e' #or 'e+pi'
+pi_e_expression(18.2958548951) == 'pi +e**e'
+pi_e_expression(47.6085189284) == 'pi*e**e'</pre>
 {% else %}
-    <pre class="brush: python">checkio(4, 4, 4) == [60, 60, 60]
-checkio(3, 4, 5) == [37, 53, 90]
-checkio(2, 2, 5) == [0, 0, 0]</pre>
+    <pre class="brush: python">checkio(5.85987448205) == 'pi+e'
+checkio(18.2958548951) == 'pi +e**e'
+checkio(47.6085189284) == 'pi*e**e'</pre>
 {% endif %}
 </div>
 
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    This is a classical geometric task. The ideas can be useful in topography and architecture.
-    With this concept you can measure an angle without the need for a protractor.
+In challenges that require finding arithmetic expressions,
+    we can discover interesting mathematical relationships. For example, one such relationship is
+    the fact that the sum of the inverses of the square numbers is equal to pi squared divided by 6.
+
 </p>
 
 <p>
