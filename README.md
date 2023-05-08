@@ -1,5 +1,5 @@
-checkio-task-triangle-angles
+checkio-task-Pi-and-e
 =====================
 
-The Checkio Task "The Angles of a Triangle"
+The Checkio Task "Pi and e: The Dynamic Duo of Math"
 
