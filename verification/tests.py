@@ -9,7 +9,7 @@ Each test is dict with
 
 TESTS = {
     "Basics": [
-        {"input": [5.85987448205], "answer": 'e+pi', "explanation": ""},
+        {"input": [5.85987448205], "answer": 'e+pi', "explanation": "not pi+e because goes after alphabetically"},
         {"input": [18.2958548951], "answer": 'e**e+pi', "explanation": ""},
         {"input": [47.6085189284], "answer": 'e**e*pi', "explanation": ""},
         {"input": [-0.42331082513], "answer": 'e-pi', "explanation": ""},
