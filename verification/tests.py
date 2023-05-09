@@ -6,9 +6,7 @@ Each test is dict with
     "answer" -- your right answer
     "explanation" -- not necessary key, it's using for additional info in animation.
 """
-checkio(5.85987448205) == 'e+pi'
-checkio(18.2958548951) == 'e**e+pi'
-checkio(47.6085189284) == 'e**e*pi'
+
 TESTS = {
     "Basics": [
         {"input": 5.85987448205, "answer": 'e+pi', "explanation": ""},
