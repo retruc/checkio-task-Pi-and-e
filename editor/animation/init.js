@@ -1,7 +1,7 @@
-requirejs(['ext_editor_io2', 'jquery_190'],
-    function (extIO, $) {
-        var io = new extIO({});
-        io.start();
-    }
-);
+//Dont change it
+requirejs(['ext_editor_1', 'jquery_190', 'raphael_212'],
+    function (ext, $, TableComponent) {
 
+        var cur_slide = {};
+
+);
