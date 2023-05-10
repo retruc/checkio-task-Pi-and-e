@@ -9,7 +9,7 @@ if __name__ == '__main__':
     print("Example:")
     print(checkio(5.85987448205))
 
-    assert checkio(5.85987448205) == 'e+pi'
+    assert checkio(5.85987448205) == 'e+pi' #not pi+e because it comes after alphabetically
     assert checkio(18.2958548951) == 'e**e+pi' 
     assert checkio(47.6085189284) == 'e**e*pi' 
     print("Coding complete? Click 'Check' to earn cool rewards!")
