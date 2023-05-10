@@ -9,18 +9,18 @@ Each test is dict with
 
 TESTS = {
     "Basics": [
-        {"input": [5.85987448205], "answer": 'e+pi', "explanation": ""},
-        {"input": [18.2958548951], "answer": 'e**e+pi', "explanation": ""},
-        {"input": [47.6085189284], "answer": 'e**e*pi', "explanation": ""},
-        {"input": [-0.42331082513], "answer": 'e-pi', "explanation": ""},
-        {"input": [7.38905609893], "answer": 'e*e', "explanation": ""},
+        {"input": [5.85987448205], "answer": 'e+pi'},
+        {"input": [18.2958548951], "answer": 'e**e+pi'},
+        {"input": [47.6085189284], "answer": 'e**e*pi'},
+        {"input": [-0.42331082513], "answer": 'e-pi'},
+        {"input": [7.38905609893], "answer": 'e*e'},
 
     ],
     "Extra": [
-        {"input": [-2.48054830216], "answer": 'e*e-pi*pi', "explanation": ""},
-        {"input": [57.9087276547], "answer": 'e*pi**e-pi', "explanation": ""},
-        {"input": [0.07455076325], "answer": 'e/pi**pi', "explanation": ""},
-        {"input": [0.10132118364], "answer": 'e/e/pi/pi', "explanation": ""},
+        {"input": [-2.48054830216], "answer": 'e*e-pi*pi'},
+        {"input": [57.9087276547], "answer": 'e*pi**e-pi'},
+        {"input": [0.07455076325], "answer": 'e/pi**pi'},
+        {"input": [0.10132118364], "answer": 'e/e/pi/pi'},
 
     ]
 }
