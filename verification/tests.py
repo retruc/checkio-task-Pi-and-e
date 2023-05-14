@@ -17,6 +17,7 @@ TESTS = {
 
     ],
     "Extra": [
+        {"input": [3.14159265359], "answer": 'pi'}
         {"input": [-2.48054830216], "answer": 'e*e-pi*pi'},
         {"input": [57.9087276547], "answer": 'e*pi**e-pi'},
         {"input": [0.07455076325], "answer": 'e/pi**pi'},
