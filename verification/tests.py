@@ -21,7 +21,7 @@ TESTS = {
         {"input": [-2.48054830216], "answer": 'e*e-pi*pi'},
         {"input": [57.9087276547], "answer": 'e*pi**e-pi'},
         {"input": [0.07455076325], "answer": 'e/pi**pi'},
-        {"input": [2.00000000211], "answer": None},
+        {"input": [2.00000000000], "answer": None},
         {"input": [0.10132118364], "answer": 'e/e/pi/pi'},
 
     ]
