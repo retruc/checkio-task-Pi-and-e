@@ -1,3 +1,5 @@
+.vscode
+
 *.py[cod]
 
 # C extensions
@@ -37,3 +39,5 @@ nosetests.xml
 
 .DS_Store
 __VERSION__.py
+
+__pycache__
